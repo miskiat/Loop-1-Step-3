@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: rgb(66, 158, 158);
+}
+
+.container {
+  width: 500px;
+  height: 400px;
+  background: white;
+  padding-top: 1%;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-top: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-image: url(/media/bicycle.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left 0% bottom -6rem;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.head {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.order {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+}
+.Thanks {
+  color: dimgrey;
+  font-size: 10px;
+}
+.head {
+  font-weight: 800;
+}
+.account {
+  border-radius: 50%;
+  border: 0.5px solid rgb(199, 196, 196);
+  padding: 5px;
+}
+.account:hover {
+  background-color: rgba(46, 139, 86, 0.253);
+}
